@@ -3,7 +3,7 @@ project "ImGui"
 	language "C"
 
 	targetdir ("%{wks.location}/Binaries/%{cfg.buildcfg}")
-	objdir ("%{wks.location}/%{cfg.buildcfg}")
+	objdir ("%{wks.location}/Binaries/%{cfg.buildcfg}")
 
 	files
 	{

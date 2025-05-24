@@ -55,19 +55,19 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <OutDir>..\..\..\Binaries\Debug\</OutDir>
-    <IntDir>..\..\..\Debug\</IntDir>
+    <IntDir>..\..\..\Binaries\Debug\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Dev|x64'">
     <OutDir>..\..\..\Binaries\Dev\</OutDir>
-    <IntDir>..\..\..\Dev\</IntDir>
+    <IntDir>..\..\..\Binaries\Dev\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <OutDir>..\..\..\Binaries\Release\</OutDir>
-    <IntDir>..\..\..\Release\</IntDir>
+    <IntDir>..\..\..\Binaries\Release\</IntDir>
     <TargetName>ImGui</TargetName>
     <TargetExt>.lib</TargetExt>
   </PropertyGroup>
