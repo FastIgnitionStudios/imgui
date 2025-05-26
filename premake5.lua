@@ -2,8 +2,8 @@ project "ImGui"
 	kind "StaticLib"
 	language "C"
 
-	targetdir ("%{wks.location}/Build/Binaries/" .. outputdir .. "/%{prj.name}")
-	objdir ("%{wks.location}/Build/Intermediate/" .. outputdir .. "/%{prj.name}")
+targetdir "%{wks.location}/Binaries/%{cfg.buildcfg}"
+objdir "%{wks.location}/Intermediate/%{cfg.buildcfg}"
 
 	files
 	{
